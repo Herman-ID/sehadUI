@@ -123,7 +123,7 @@ form.convFormDynamic input.userInputDynamic {
 }
 
 div.conv-form-wrapper div#messages {
-  /* max-height: 71vh; */
+  /* max-height: calc(100% - 60px); */
   height: auto !important;
   overflow-y: scroll;
 }
@@ -137,7 +137,7 @@ div.conv-form-wrapper {
 }
 div.conv-form-wrapper div.wrapper-messages {
   position: relative;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 145px);
   overflow-y: scroll;
 }
 div.conv-form-wrapper:before {
